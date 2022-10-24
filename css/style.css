@@ -35,6 +35,18 @@ main{
     align-items: center;
 }
 
+.voltar{
+    position: fixed;
+    right: 16px;
+    bottom: 16px;
+    display: grid;
+    place-content: center;
+    font-size: 2.5rem;
+    transition: all .5s;
+}
+.voltar:hover{
+    color: var(--primary-color);
+}
 section{
     height: 100vh;
 }
