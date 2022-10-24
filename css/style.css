@@ -1,6 +1,7 @@
 :root{
     --primary-color:#FEDC00;
-    --secundary-color:#252525 ;
+    --icon-color:#252525 ;
+   
 }
 
 html{
@@ -41,7 +42,10 @@ section{
 footer{
     grid-area: content;
     place-self: end center;
-    height: 100px;
+    height: 50px;
     width: 100%;
-    background-color:#0005 ;
+    display: grid;
+    place-content: center;
+    border-top: 2px solid #ffffff;
+    font-size: .75rem;
 }
