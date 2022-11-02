@@ -26,7 +26,7 @@
         gap: 40px;
     }
     .sobre-mim{
-        text-align:  left;
+        text-align:  center;
         display: flex;
         place-items: center;
         flex-direction: column;
@@ -73,10 +73,10 @@
         height: 180vh;
     }
     .description{
-       
+        display: flex;  
     }
     .skills__icons{
-        width: 300px; 
+        width: 150px; 
     }
     .projetos{ 
         display: flex;
@@ -92,7 +92,9 @@
         height: 110vh;
     } 
     .social-container{
-        
+        flex-direction: inherit;
     }
-
+    .links-container{
+        height: 26vh;
+    }
  }
