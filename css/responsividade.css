@@ -70,13 +70,29 @@
         display: flex;
         place-items: center;
         flex-direction: column;
-        height: 180vh;
+        height: 160vh;
+        gap: 30px;
+    }
+    .home{
+        height: 800px;
+    }
+    .profile{
+        align-items: flex-end;
     }
     .description{
-        display: flex;  
+        display: flex; 
+        align-items: center;
+    }
+    .description__text{
+        width: 310px;
+        height: 430px; 
+    }
+    .skills{
+        align-items: center;
     }
     .skills__icons{
-        width: 150px; 
+        width: 320px; 
+        height: 500px;
     }
     .projetos{ 
         display: flex;
