@@ -39,26 +39,45 @@
         width: 500px;
     }
      .projetos{ 
+        height: 820px;
         display: flex;
         place-self: center;
         text-align: center;
         flex-direction: column;
-        gap: 32px;
+        gap: 20px;
     }
     .card-container{
-        width: 300px;
+        width: 700px;
     }
     .contato{
-        margin-top: 600px;
+        
+        grid-template-areas: 
+        "title title"
+        "contato links"
+        "social social";
+        display: grid;
         height: 60vh;
-        padding: 10px;
+        padding: 80px;
+       
+        place-items: center;
     } 
     .section-title{
+        grid-area: title;
         display: flex;
         place-self: center;
         text-align: center;
         flex-direction: column;
     }
+    .contato-container{
+        grid-area: contato;
+    }
+    .links-container{
+        grid-area: links;
+    }
+    .social-container{
+        grid-area: social;
+    }
+        
 
 }
 
@@ -112,5 +131,8 @@
     }
     .links-container{
         height: 26vh;
+    }
+    footer{
+       
     }
  }
