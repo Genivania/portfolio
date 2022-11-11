@@ -30,7 +30,7 @@
         display: flex;
         place-items: center;
         flex-direction: column;
-        height: 110vh;
+        height: 100vh;
     }
     .description__text{
         width: 500px;
@@ -39,7 +39,7 @@
         width: 500px;
     }
      .projetos{ 
-        height: 820px;
+        height: 830px;
         display: flex;
         place-self: center;
         text-align: center;
