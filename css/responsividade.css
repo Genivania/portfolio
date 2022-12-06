@@ -3,6 +3,10 @@
     :root{
         --space-default:60px;
     }
+    header {
+        display: flex;
+        justify-content: space-around;
+    }
    .menu{
         display: none;
     }
@@ -15,22 +19,23 @@
         font-size: 110px;
     }
     .home{
-        grid-row: 2;
-        grid-column: 1;
-        padding: 10px;
-        text-align: center;
+        position: relative;
+        flex-direction: column;
+        width: 100%;
+        height: 210vh;
     }
     .profile{
         display: grid;
         place-items: center;
-        gap: 40px;
+      
     }
     .sobre-mim{
         text-align:  center;
         display: flex;
         place-items: center;
         flex-direction: column;
-        height: 100vh;
+        height: 150vh;
+        gap: 30px;
     }
     .description__text{
         width: 500px;
@@ -39,7 +44,7 @@
         width: 500px;
     }
      .projetos{ 
-        height: 830px;
+        height: 1500px;
         display: flex;
         place-self: center;
         text-align: center;
@@ -47,7 +52,12 @@
         gap: 20px;
     }
     .card-container{
-        width: 700px;
+        width: 900px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
     }
     .contato{
         
@@ -56,7 +66,7 @@
         "contato links"
         "social social";
         display: grid;
-        height: 60vh;
+        height: 100vh;
         padding: 80px;
        
         place-items: center;

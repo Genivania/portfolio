@@ -15,7 +15,7 @@
     align-items: center;
     gap: 48px;
 }
-.profile__fofo{
+.profile__foto{
     filter: grayscale();
 }
 .profile__text{
